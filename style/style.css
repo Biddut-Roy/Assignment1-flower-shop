@@ -1,0 +1,39 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav {
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+    height: 70vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-info {
+    display: block;
+    width: 40vw;
+}
+
+#nav-text {
+    font-size: 34px;
+    font-weight: 700px;
+}
+
+#btn_shop {
+    padding: 10px 22px;
+    background-color: #E55473;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 4px;
+}
+ 
+.nav-pic {
+    margin-top: 30px;
+    height: 66vh;
+
+}
+.feature-section{
+    
+}
