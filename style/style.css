@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-nav {
+.title-section {
     display: flex;
     background: rgba(229, 84, 115, 0.10);
     height: 70vh;
@@ -10,12 +10,12 @@ nav {
     align-items: center;
 }
 
-.nav-info {
+.title {
     display: block;
     width: 40vw;
 }
 
-#nav-text {
+#title-text {
     font-size: 34px;
     font-weight: 700px;
 }
@@ -29,11 +29,79 @@ nav {
     border-radius: 4px;
 }
  
-.nav-pic {
+.title-pic {
     margin-top: 30px;
     height: 66vh;
+}
+/* start Feature Sectiion */
+.feature-section{
+    display: block;
+    width: 70%;
+ 
+    margin: 30px auto;
+    height: 100vh;
+}
+.feature-info{
+    display: block;
+    text-align: center;
+}
+.feature-tree{
+    display: flex;
+    justify-content: space-around;
+}
+.fature-box{
+    display: block;
+    text-align: center;
+    width: 464px;
+    height: 450px;
+    margin: 0 10px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+.fature-box1{
+    display: block;
+    text-align: center;
+    width: 464px;
+    height: 450px;
+    margin: 0 10px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
 
 }
-.feature-section{
-    
+.fature-box2{
+    display: block;
+    text-align: center;
+    width: 464px;
+    height: 450px;
+    margin: 0 10px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
 }
+
+.fature-pic{
+    margin-top: 100px;
+    width: 300px;
+    height: 350px;
+}
+.service{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 150px;
+    background-color: rgb(218, 234, 248);
+    padding: 20px;
+
+}
+.our-service{
+    display: block;
+    text-align: center;
+}
+.service-time{
+    display: block;
+    text-align: center;
+}
+.service-help{
+    display: block;
+    text-align: center;
+}
+/* Hot Deal Section */
