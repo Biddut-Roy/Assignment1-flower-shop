@@ -1,7 +1,41 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
 }
-
+/*  start a Header  */
+/* Bonus section  */
+header{
+    background: rgb(246, 168, 185);
+}
+header > nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icons{
+    display: flex;
+    align-items: center;
+}
+.icon{
+padding-left: 150px;
+}
+.icon > img{
+    height: 50px;
+    width: 50px;
+}
+.menu-bar > ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+.menu-bar ul > li{
+    padding-right: 20px;
+    cursor: pointer;
+}
+.menu-bar ul > li:hover{
+    color: blue;
+}
+/* start  a 1st title section */
 .title-section {
     display: flex;
     background: rgba(229, 84, 115, 0.10);
@@ -27,6 +61,7 @@ body {
     font-weight: 700;
     color: #fff;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .title-pic {
@@ -35,6 +70,7 @@ body {
 }
 
 /* start Feature Sectiion */
+
 .feature-section {
     display: block;
     width: 70%;
@@ -150,6 +186,7 @@ body {
     border-radius: 7px;
     color: #fff;
     background-color: #E55473;
+    cursor: pointer;
 }
 
 /*  Start a social section */
