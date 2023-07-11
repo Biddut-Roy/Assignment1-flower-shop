@@ -38,7 +38,7 @@ body {
     display: block;
     width: 70%;
     margin: 30px auto;
-    height: 80vh;
+    height: 75vh;
 }
 .feature-info{
     display: block;
@@ -87,14 +87,17 @@ body {
     display: flex;
     width: 70%;
     justify-content: space-around;
-    margin: 0 auto;
+    margin: 20px auto;
     align-items: center;
-    background-color: rgb(218, 234, 248);
+    border-radius: 10px;
+    background: rgba(39, 39, 39, 0.05);
+
 
 }
 .our-service{
     display: block;
     text-align: center;
+    margin: 20px;
 }
 .service-time{
     display: block;
@@ -107,12 +110,25 @@ body {
 /* Hot Deal Section */
 .hot-deal{
     display: flex;
-    height: 50vh;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    height: 40vh;
+    margin-top: 10px;
+    background: rgba(229, 84, 115, 0.05);
 
 }
 .deal{
-
+    margin-left: 60px;
 }
-.off-color{
+#off-color{
     color: red;
+}
+.hot-deal-logo{
+    margin-right: 100px;
+    height: 35vh;
+    padding-right: 40px;
+}
+.btn-sign-up{
+    background-color: #E55473;
 }
