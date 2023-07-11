@@ -28,27 +28,31 @@ body {
     color: #fff;
     border-radius: 4px;
 }
- 
+
 .title-pic {
     margin-top: 30px;
     height: 66vh;
 }
+
 /* start Feature Sectiion */
-.feature-section{
+.feature-section {
     display: block;
     width: 70%;
     margin: 30px auto;
     height: 75vh;
 }
-.feature-info{
+
+.feature-info {
     display: block;
     text-align: center;
 }
-.feature-tree{
+
+.feature-tree {
     display: flex;
     justify-content: space-around;
 }
-.fature-box{
+
+.fature-box {
     display: block;
     text-align: center;
     width: 464px;
@@ -57,7 +61,8 @@ body {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
 }
-.fature-box1{
+
+.fature-box1 {
     display: block;
     text-align: center;
     width: 464px;
@@ -67,7 +72,8 @@ body {
     background: rgba(5, 151, 160, 0.15);
 
 }
-.fature-box2{
+
+.fature-box2 {
     display: block;
     text-align: center;
     width: 464px;
@@ -77,13 +83,14 @@ body {
     background: rgba(71, 125, 17, 0.15);
 }
 
-.fature-pic{
+.fature-pic {
     margin-top: 100px;
     width: 300px;
     height: 300px;
 }
+
 /* start service section */
-.service{
+.service {
     display: flex;
     width: 70%;
     justify-content: space-around;
@@ -94,21 +101,25 @@ body {
 
 
 }
-.our-service{
+
+.our-service {
     display: block;
     text-align: center;
     margin: 20px;
 }
-.service-time{
+
+.service-time {
     display: block;
     text-align: center;
 }
-.service-help{
+
+.service-help {
     display: block;
     text-align: center;
 }
+
 /* Hot Deal Section */
-.hot-deal{
+.hot-deal {
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -118,26 +129,31 @@ body {
     background: rgba(229, 84, 115, 0.05);
 
 }
-.deal{
+
+.deal {
     margin-left: 60px;
 }
-#off-color{
+
+#off-color {
     color: red;
 }
-.hot-deal-logo{
+
+.hot-deal-logo {
     margin-right: 100px;
     height: 35vh;
     padding-right: 40px;
 }
-.btn-sign-up{
+
+.btn-sign-up {
     margin: 10px;
     padding: 10px 30px;
     border-radius: 7px;
     color: #fff;
     background-color: #E55473;
 }
+
 /*  Start a social section */
-.social{
+.social {
     display: block;
     text-align: center;
     margin-top: 60px;
@@ -145,46 +161,68 @@ body {
     margin: 0 auto;
     margin-top: 60px;
 }
-.social-name-text{
+
+.social-name-text {
     display: block;
 }
-.item{
+
+.item {
     display: flex;
     justify-content: space-around;
     align-items: center;
- 
+
 }
-.item-pic{
+
+.item-pic {
     width: 300px;
     height: 350px;
 }
-.item-pic-size{
+
+.item-pic-size {
     width: 250px;
     height: 320px;
     margin-top: 15px;
     margin-bottom: 15px;
     border-radius: 5px;
 }
+
 /* Get a Coupun & subscription section */
 
-.subscription{
+.subscription {
     background-image: url("../Rectangle\ 9.png");
     background-size: cover;
     height: 50vh;
     width: 70%;
     border: 2px solid black;
-    margin:70px auto;
+    margin: 70px auto;
 }
-.input-coupon-bar{
+
+.input-coupon-bar {
     display: block;
     text-align: center;
     margin-top: 70px;
 
 }
 
-.input-mail{
+.input-mail {
     height: 34px;
     width: 400px;
 }
 
-   /* start a footer section */
+/* start a footer section */
+footer {
+
+}
+.foot-text{
+    display: block;
+    background-color: black;
+    color: whitesmoke;
+    height: 300px;
+    text-align: center;
+    align-items: center;
+    padding-top: 100px;
+}
+.foot-flower {
+    color: #E55473;
+
+}
