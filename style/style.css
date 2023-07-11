@@ -165,4 +165,26 @@ body {
     margin-bottom: 15px;
     border-radius: 5px;
 }
-/* Get a Coupun section */
+/* Get a Coupun & subscription section */
+
+.subscription{
+    background-image: url("../Rectangle\ 9.png");
+    background-size: cover;
+    height: 50vh;
+    width: 70%;
+    border: 2px solid black;
+    margin:70px auto;
+}
+.input-coupon-bar{
+    display: block;
+    text-align: center;
+    margin-top: 70px;
+
+}
+
+.input-mail{
+    height: 34px;
+    width: 400px;
+}
+
+   /* start a footer section */
