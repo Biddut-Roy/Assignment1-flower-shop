@@ -130,5 +130,39 @@ body {
     padding-right: 40px;
 }
 .btn-sign-up{
+    margin: 10px;
+    padding: 10px 30px;
+    border-radius: 7px;
+    color: #fff;
     background-color: #E55473;
 }
+/*  Start a social section */
+.social{
+    display: block;
+    text-align: center;
+    margin-top: 60px;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.social-name-text{
+    display: block;
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ 
+}
+.item-pic{
+    width: 300px;
+    height: 350px;
+}
+.item-pic-size{
+    width: 250px;
+    height: 320px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+/* Get a Coupun section */
